@@ -1,0 +1,23 @@
+;#include <header.h>
+;
+;void main(void)
+; 0000 0004 {
+
+	.CSEG
+;PCODE: $00000000 VOL: 0
+; 0000 0005 
+; 0000 0006 init_all();
+;PCODE: $00000001 VOL: 0
+; 0000 0007 one();
+;PCODE: $00000002 VOL: 0
+; 0000 0008 q_2_init();
+;PCODE: $00000003 VOL: 0
+; 0000 0009 two();
+;PCODE: $00000004 VOL: 0
+; 0000 000A three();
+;PCODE: $00000005 VOL: 0
+; 0000 000B 
+; 0000 000C }
+;PCODE: $00000006 VOL: 0
+;PCODE: $00000007 VOL: 0
+;PCODE: $00000008 VOL: 0
